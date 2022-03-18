@@ -1,1 +1,1 @@
-# GP_demo
+#An art project inspired by _SpongeBob SquarePants_
