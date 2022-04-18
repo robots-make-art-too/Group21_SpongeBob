@@ -1,0 +1,11 @@
+Model Information:
+* title:	Krabby Patty (Spongebob)
+* source:	https://sketchfab.com/3d-models/krabby-patty-spongebob-6bf2dc6ffc594a8598bcf84f5d0325f1
+* author:	Anthony Yanez (https://sketchfab.com/paulyanez)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Krabby Patty (Spongebob)" (https://sketchfab.com/3d-models/krabby-patty-spongebob-6bf2dc6ffc594a8598bcf84f5d0325f1) by Anthony Yanez (https://sketchfab.com/paulyanez) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

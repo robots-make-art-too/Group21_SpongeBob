@@ -1,0 +1,11 @@
+Model Information:
+* title:	Squidward Tentacles
+* source:	https://sketchfab.com/3d-models/squidward-tentacles-8d8cae9fd10f40878df75bcea30ba2eb
+* author:	willsilvaart (https://sketchfab.com/willsilvaart)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Squidward Tentacles" (https://sketchfab.com/3d-models/squidward-tentacles-8d8cae9fd10f40878df75bcea30ba2eb) by willsilvaart (https://sketchfab.com/willsilvaart) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
