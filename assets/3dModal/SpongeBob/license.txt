@@ -1,11 +1,11 @@
 Model Information:
-* title:	The SpongeBob Squarepants
-* source:	https://sketchfab.com/3d-models/the-spongebob-squarepants-74e87e0af5b2495792d8068d561fd816
-* author:	Pixel (https://sketchfab.com/stefan.lengyel1)
+* title:	Spongebob
+* source:	https://sketchfab.com/3d-models/spongebob-0a5439cbbbbc4f03884e82c49a5d9666
+* author:	SleepyPineapple (https://sketchfab.com/SleepyPineapple)
 
 Model License:
 * license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
 * requirements:	Author must be credited. Commercial use is allowed.
 
 If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
-This work is based on "The SpongeBob Squarepants" (https://sketchfab.com/3d-models/the-spongebob-squarepants-74e87e0af5b2495792d8068d561fd816) by Pixel (https://sketchfab.com/stefan.lengyel1) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+This work is based on "Spongebob" (https://sketchfab.com/3d-models/spongebob-0a5439cbbbbc4f03884e82c49a5d9666) by SleepyPineapple (https://sketchfab.com/SleepyPineapple) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

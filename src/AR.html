@@ -4,22 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="AR.css">
+    <script src="interaction.js"></script>
     <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
     <script src="https://rawcdn.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+            integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="gesture-detector.js"></script>
+    <script src="gesture-handler.js"></script>
 </head>
 
 <body style='margin : 0px; overflow: hidden;'>
 <div class='convo-bubble'></div>
 
 <a-scene
-        id="a-scene"
-        arjs="sourceType: webcam; debugUIEnabled: false;"
+        id="scene"
+        arjs="sourceType: webcam; debugUIEnabled: false;detectionMode: mono_and_matrix; matrixCodeType: 3x3;"
         embedded
         renderer="logarithmicDepthBuffer: true;"
         vr-mode-ui="enabled: false"
-        id="scene"
-        cursor="rayOrigin: mouse" accepts-clicks>
-    <a-assets>
+        gesture-detector
+>
+    <a-assets id="assets">
 
         <a-asset-item id="Home" src="../assets/3dModal/Home/scene.gltf"></a-asset-item>
         <a-asset-item id="KrabbyPatty" src="../assets/3dModal/KrabbyPatty/scene.gltf"></a-asset-item>
@@ -29,30 +35,52 @@
         <a-asset-item id="Squidward" src="../assets/3dModal/Squidward/scene.gltf"></a-asset-item>
     </a-assets>
 
-    <!--<a-marker id="Home-1" preset="Home">
-        <a-entity id="Home-gltf" position="0 0.5 0" rotation="0 180 0" scale="0.5 0.5 0.5"
+    <a-marker id="Home-1" type='pattern' url='../assets/patt/pattern-home.patt' raycaster="objects: .clickable"
+              emitevents="true"
+              cursor="fuse: false; rayOrigin: mouse;">
+        <a-entity class="clickable"
+                  gesture-handler id="Home-gltf" position="0 0.5 0" rotation="-60 0 0" scale="0.5 0.5 0.5"
                   gltf-model="#Home"></a-entity>
     </a-marker>
-    <a-marker id="KrabbyPatty-1" preset="KrabbyPatty">
-        <a-entity id="KrabbyPatty-gltf" position="0 0.5 0" rotation="0 180 0" scale="0.5 0.5 0.5"
+
+    <a-marker id="KrabbyPatty-1" type="pattern" url="../assets/patt/pattern-krabby.patt" raycaster="objects: .clickable"
+              emitevents="true"
+              cursor="fuse: false; rayOrigin: mouse;">
+        <a-entity gesture-handler id="KrabbyPatty-gltf" position="0 0.5 0" rotation="-90 0 0" scale="0.01 0.01 0.01"
                   gltf-model="#KrabbyPatty"></a-entity>
     </a-marker>
-    <a-marker id="KrustyKrab-1" preset="KrustyKrab">
-        <a-entity id="KrustyKrab-gltf" position="0 0.5 0" rotation="0 180 0" scale="0.5 0.5 0.5"
+
+    <a-marker id="KrustyKrab-1" type="pattern" url="../assets/patt/pattern-krusty.patt" raycaster="objects: .clickable"
+              emitevents="true"
+              cursor="fuse: false; rayOrigin: mouse;">
+        <a-entity class="clickable"
+                  gesture-handler id="Home-gltf" position="0 0.5 0" rotation="-45 -90 90" scale="0.06 0.06 0.06"
                   gltf-model="#KrustyKrab"></a-entity>
     </a-marker>
-    <a-marker id="Patrick-1" preset="Patrick">
-        <a-entity id="Patrick-gltf" position="0 0.5 0" rotation="0 180 0" scale="0.5 0.5 0.5"
+
+    <a-marker id="Patrick-1" type="pattern" url="../assets/patt/pattern-patrick.patt" raycaster="objects: .clickable"
+              emitevents="true"
+              cursor="fuse: false; rayOrigin: mouse;">
+        <a-entity class="clickable"
+                  gesture-handler id="Home-gltf" position="0 0 0" rotation="-90 0 0" scale="0.01 0.01 0.01"
                   gltf-model="#Patrick"></a-entity>
     </a-marker>
-    <a-marker id="SpongeBob-1" preset="SpongeBob">
-        <a-entity id="SpongeBob-gltf" position="0 0.5 0" rotation="0 180 0" scale="0.5 0.5 0.5"
+
+    <a-marker id="SpongeBob-1" type="pattern" url="../assets/patt/pattern-spongebob.patt" raycaster="objects: .clickable"
+              emitevents="true"
+              cursor="fuse: false; rayOrigin: mouse;">
+        <a-entity class="clickable"
+                  gesture-handler id="Home-gltf" position="0 0 0.5" rotation="-90 0 0" scale="1 1 1"
                   gltf-model="#SpongeBob"></a-entity>
     </a-marker>
-    <a-marker id="Squidward-1" preset="Squidward">
-        <a-entity id="Squidward-gltf" position="0 0.5 0" rotation="0 180 0" scale="0.5 0.5 0.5"
+
+    <a-marker id="Squidward-1" type="pattern" url="../assets/patt/pattern-squidward.patt" raycaster="objects: .clickable"
+              emitevents="true"
+              cursor="fuse: false; rayOrigin: mouse;">
+        <a-entity class="clickable"
+                  gesture-handler id="Home-gltf" position="0 0.5 0" rotation="-90 -90 90" scale="0.2 0.2 0.2"
                   gltf-model="#Squidward"></a-entity>
-    </a-marker>-->
+    </a-marker>
 
     <a-entity camera></a-entity>
 
@@ -60,24 +88,4 @@
 
 
 </body>
-<script>
-    window.onload = function () {
-        const roleString = location.search.split('=')[1]
-
-        const marker = document.createElement('a-marker')
-        marker.setAttribute('id', roleString + '-1')
-        marker.setAttribute('preset', roleString)
-
-        const entity = document.createElement('a-entity')
-        entity.setAttribute('id', roleString + '-gltf')
-        entity.setAttribute('position', "0 0.5 0")
-        entity.setAttribute('rotation', "0 180 0")
-        entity.setAttribute('scale', "1 1 1")
-        entity.setAttribute('gltf-mode', "#" + roleString)
-
-        marker.appendChild(entity)
-        document.querySelector('#a-scene').appendChild(marker)
-    }
-</script>
-
 </html>
