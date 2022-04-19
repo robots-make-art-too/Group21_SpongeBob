@@ -1,6 +1,6 @@
 # An art project inspired by _SpongeBob SquarePants_
 
-This is a simple experimental project that provides a website for SpongeBob fans to browse the characters and locations of this popular animation, and see their models in the shocking real world!
+This is a simple experimental project that provides a website for SpongeBob fans to browse the characters and locations of this popular animation, see their models  and do interaction in the shocking real world!
 ## Work Distribution
 
 ```
@@ -11,6 +11,9 @@ Sakura -- 2D & 3D Assets, HTML, JS, CSS, AR Functionality, build 'gh-pages'
 
 ![QR](HomePage_QR.png)
 
+- [Demo Video](https://youtube.com/shorts/pwAlV6tQJhg?feature=share)
+
+
 - Home Page
 
 ![img.png](img.png)
@@ -18,3 +21,4 @@ Sakura -- 2D & 3D Assets, HTML, JS, CSS, AR Functionality, build 'gh-pages'
 - AR Page
 
 ![img_1.png](img_1.png)
+
