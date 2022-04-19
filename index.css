@@ -12,8 +12,15 @@ body{
     margin-top: 20px;
     width: 60%;
 }
+.desc{
+    font-size: 20px;
+    font-weight: bolder;
+    color: #fff;
+    padding: 30px 20%;
+    text-align: center;
+}
 .role-content{
-   padding: 80px 40px;
+   padding: 40px;
     display: flex;
     justify-content: space-between;
 }
@@ -32,7 +39,7 @@ body{
 .view-btn{
     cursor: pointer;
     margin-top: 20px;
-    font-size: 2rem;
+    font-size: 14px;
     font-weight: bolder;
     border: black 1px solid;
     border-radius: 100px;
