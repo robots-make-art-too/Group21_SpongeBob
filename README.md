@@ -7,7 +7,9 @@ This is a simple experimental project that provides a website for SpongeBob fans
 Sakura -- 2D & 3D Assets, HTML, JS, CSS, AR Functionality, build 'gh-pages'
 ```
 
-[Demo Site](https://robots-make-art-too.github.io/Group18_SpongeBob/)
+- [Demo Site](https://robots-make-art-too.github.io/Group18_SpongeBob/)
+
+![QR](HomePage_QR.png)
 
 - Home Page
 
