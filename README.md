@@ -9,10 +9,11 @@ Sakura -- 2D & 3D Assets, HTML, JS, CSS, AR Functionality, build 'gh-pages'
 
 - [Demo Site](https://robots-make-art-too.github.io/Group18_SpongeBob/)
 
-![QR](21_HomePage_QR.png)
+- QR 
+
+ <img src="21_HomePage_QR.png" width="200">
 
 - [Demo Video](https://youtube.com/shorts/pwAlV6tQJhg?feature=share)
-
 
 - Home Page
 
